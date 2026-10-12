@@ -1,0 +1,900 @@
+[
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-001",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-001",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-01",
+      "name": "Atelier fictif 01 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-01",
+      "name": "ERP fictif 01"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 01/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "1.01",
+        "net": "1.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 01/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "1.02",
+        "net": "2.04"
+      }
+    ],
+    "totals": {
+      "net": "3.05",
+      "tax": "0.61",
+      "gross": "3.66",
+      "payable": "3.66"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-002",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-002",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-02",
+      "name": "Atelier fictif 02 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-02",
+      "name": "ERP fictif 02"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 02/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "2.01",
+        "net": "2.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 02/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "2.02",
+        "net": "4.04"
+      },
+      {
+        "id": "3",
+        "description": "Service synthétique 02/3",
+        "quantity": "3",
+        "unitCode": "C62",
+        "unitPrice": "2.03",
+        "net": "6.09"
+      }
+    ],
+    "totals": {
+      "net": "12.14",
+      "tax": "2.43",
+      "gross": "14.57",
+      "payable": "14.57"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-003",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-003",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-03",
+      "name": "Atelier fictif 03 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-03",
+      "name": "ERP fictif 03"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 03/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "3.01",
+        "net": "3.01"
+      }
+    ],
+    "totals": {
+      "net": "3.01",
+      "tax": "0.60",
+      "gross": "3.61",
+      "payable": "3.61"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-004",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-004",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-04",
+      "name": "Atelier fictif 04 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-04",
+      "name": "ERP fictif 04"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 04/1",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "4.01",
+        "net": "6.02"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 04/2",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "4.02",
+        "net": "6.03"
+      }
+    ],
+    "totals": {
+      "net": "12.05",
+      "tax": "2.41",
+      "gross": "14.46",
+      "payable": "14.46"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-005",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-005",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-05",
+      "name": "Atelier fictif 05 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-05",
+      "name": "ERP fictif 05"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 05/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "5.01",
+        "net": "5.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 05/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "5.02",
+        "net": "10.04"
+      },
+      {
+        "id": "3",
+        "description": "Service synthétique 05/3",
+        "quantity": "3",
+        "unitCode": "C62",
+        "unitPrice": "5.03",
+        "net": "15.09"
+      }
+    ],
+    "totals": {
+      "net": "30.14",
+      "tax": "0.00",
+      "gross": "30.14",
+      "payable": "30.14"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-006",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-006",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-06",
+      "name": "Atelier fictif 06 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-06",
+      "name": "ERP fictif 06"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 06/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "6.01",
+        "net": "6.01"
+      }
+    ],
+    "totals": {
+      "net": "6.01",
+      "tax": "1.20",
+      "gross": "7.21",
+      "payable": "7.21"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-007",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-007",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-07",
+      "name": "Atelier fictif 07 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-07",
+      "name": "ERP fictif 07"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 07/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "7.01",
+        "net": "7.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 07/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "7.02",
+        "net": "14.04"
+      }
+    ],
+    "totals": {
+      "net": "21.05",
+      "tax": "4.21",
+      "gross": "25.26",
+      "payable": "25.26"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-008",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-008",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-08",
+      "name": "Atelier fictif 08 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-08",
+      "name": "ERP fictif 08"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 08/1",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "8.01",
+        "net": "12.02"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 08/2",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "8.02",
+        "net": "12.03"
+      },
+      {
+        "id": "3",
+        "description": "Service synthétique 08/3",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "8.03",
+        "net": "12.05"
+      }
+    ],
+    "totals": {
+      "net": "36.10",
+      "tax": "7.22",
+      "gross": "43.32",
+      "payable": "43.32"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-009",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-009",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-09",
+      "name": "Atelier fictif 09 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-09",
+      "name": "ERP fictif 09"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 09/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "9.01",
+        "net": "9.01"
+      }
+    ],
+    "totals": {
+      "net": "9.01",
+      "tax": "1.80",
+      "gross": "10.81",
+      "payable": "10.81"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-010",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-010",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-10",
+      "name": "Atelier fictif 10 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-10",
+      "name": "ERP fictif 10"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 10/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "10.01",
+        "net": "10.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 10/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "10.02",
+        "net": "20.04"
+      }
+    ],
+    "totals": {
+      "net": "30.05",
+      "tax": "0.00",
+      "gross": "30.05",
+      "payable": "30.05"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-011",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-011",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-11",
+      "name": "Atelier fictif 11 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-11",
+      "name": "ERP fictif 11"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 11/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "11.01",
+        "net": "11.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 11/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "11.02",
+        "net": "22.04"
+      },
+      {
+        "id": "3",
+        "description": "Service synthétique 11/3",
+        "quantity": "3",
+        "unitCode": "C62",
+        "unitPrice": "11.03",
+        "net": "33.09"
+      }
+    ],
+    "totals": {
+      "net": "66.14",
+      "tax": "13.23",
+      "gross": "79.37",
+      "payable": "79.37"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-012",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-012",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-12",
+      "name": "Atelier fictif 12 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-12",
+      "name": "ERP fictif 12"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 12/1",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "12.01",
+        "net": "18.02"
+      }
+    ],
+    "totals": {
+      "net": "18.02",
+      "tax": "3.60",
+      "gross": "21.62",
+      "payable": "21.62"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-013",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-013",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-13",
+      "name": "Atelier fictif 13 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-13",
+      "name": "ERP fictif 13"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 13/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "13.01",
+        "net": "13.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 13/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "13.02",
+        "net": "26.04"
+      }
+    ],
+    "totals": {
+      "net": "39.05",
+      "tax": "7.81",
+      "gross": "46.86",
+      "payable": "46.86"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-014",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-014",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-14",
+      "name": "Atelier fictif 14 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-14",
+      "name": "ERP fictif 14"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 14/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "14.01",
+        "net": "14.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 14/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "14.02",
+        "net": "28.04"
+      },
+      {
+        "id": "3",
+        "description": "Service synthétique 14/3",
+        "quantity": "3",
+        "unitCode": "C62",
+        "unitPrice": "14.03",
+        "net": "42.09"
+      }
+    ],
+    "totals": {
+      "net": "84.14",
+      "tax": "16.83",
+      "gross": "100.97",
+      "payable": "100.97"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-015",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-015",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-15",
+      "name": "Atelier fictif 15 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-15",
+      "name": "ERP fictif 15"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 15/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "15.01",
+        "net": "15.01"
+      }
+    ],
+    "totals": {
+      "net": "15.01",
+      "tax": "0.00",
+      "gross": "15.01",
+      "payable": "15.01"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-016",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-016",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-16",
+      "name": "Atelier fictif 16 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-16",
+      "name": "ERP fictif 16"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 16/1",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "16.01",
+        "net": "24.02"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 16/2",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "16.02",
+        "net": "24.03"
+      }
+    ],
+    "totals": {
+      "net": "48.05",
+      "tax": "9.61",
+      "gross": "57.66",
+      "payable": "57.66"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-017",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-017",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-17",
+      "name": "Atelier fictif 17 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-17",
+      "name": "ERP fictif 17"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 17/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "17.01",
+        "net": "17.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 17/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "17.02",
+        "net": "34.04"
+      },
+      {
+        "id": "3",
+        "description": "Service synthétique 17/3",
+        "quantity": "3",
+        "unitCode": "C62",
+        "unitPrice": "17.03",
+        "net": "51.09"
+      }
+    ],
+    "totals": {
+      "net": "102.14",
+      "tax": "20.43",
+      "gross": "122.57",
+      "payable": "122.57"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-018",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-018",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-18",
+      "name": "Atelier fictif 18 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-18",
+      "name": "ERP fictif 18"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 18/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "18.01",
+        "net": "18.01"
+      }
+    ],
+    "totals": {
+      "net": "18.01",
+      "tax": "3.60",
+      "gross": "21.61",
+      "payable": "21.61"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-019",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-019",
+    "issueDate": "2026-10-04",
+    "dueDate": "2026-11-03",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-19",
+      "name": "Atelier fictif 19 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-19",
+      "name": "ERP fictif 19"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 19/1",
+        "quantity": "1",
+        "unitCode": "C62",
+        "unitPrice": "19.01",
+        "net": "19.01"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 19/2",
+        "quantity": "2",
+        "unitCode": "C62",
+        "unitPrice": "19.02",
+        "net": "38.04"
+      }
+    ],
+    "totals": {
+      "net": "57.05",
+      "tax": "11.41",
+      "gross": "68.46",
+      "payable": "68.46"
+    }
+  },
+  {
+    "schemaVersion": "x02.erp.v1",
+    "source": {
+      "pa": "SYNTH-PA",
+      "customerId": "SYNTH-TENANT-A",
+      "invoiceId": "SYNTH-PA-020",
+      "format": "UBL"
+    },
+    "invoiceNumber": "SYNTH-2026-020",
+    "issueDate": "2026-10-04",
+    "currency": "EUR",
+    "supplier": {
+      "id": "SYNTH-SUP-20",
+      "name": "Atelier fictif 20 & Démo"
+    },
+    "customer": {
+      "id": "SYNTH-ERP-20",
+      "name": "ERP fictif 20"
+    },
+    "lines": [
+      {
+        "id": "1",
+        "description": "Service synthétique 20/1",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "20.01",
+        "net": "30.02"
+      },
+      {
+        "id": "2",
+        "description": "Service synthétique 20/2",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "20.02",
+        "net": "30.03"
+      },
+      {
+        "id": "3",
+        "description": "Service synthétique 20/3",
+        "quantity": "1.5",
+        "unitCode": "C62",
+        "unitPrice": "20.03",
+        "net": "30.05"
+      }
+    ],
+    "totals": {
+      "net": "90.10",
+      "tax": "0.00",
+      "gross": "90.10",
+      "payable": "90.10"
+    }
+  }
+]

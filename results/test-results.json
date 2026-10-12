@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-10-12T14:23:24.425Z",
+  "node": "v22.17.1",
+  "network": "forbidden; mock envelopes only",
+  "fixtureCount": 20,
+  "testCount": 40,
+  "passed": 40,
+  "failed": 0,
+  "cases": [
+    {
+      "id": "T01",
+      "title": "normalisation invoice-01.xml",
+      "passed": true
+    },
+    {
+      "id": "T02",
+      "title": "normalisation invoice-02.xml",
+      "passed": true
+    },
+    {
+      "id": "T03",
+      "title": "normalisation invoice-03.xml",
+      "passed": true
+    },
+    {
+      "id": "T04",
+      "title": "normalisation invoice-04.xml",
+      "passed": true
+    },
+    {
+      "id": "T05",
+      "title": "normalisation invoice-05.xml",
+      "passed": true
+    },
+    {
+      "id": "T06",
+      "title": "normalisation invoice-06.xml",
+      "passed": true
+    },
+    {
+      "id": "T07",
+      "title": "normalisation invoice-07.xml",
+      "passed": true
+    },
+    {
+      "id": "T08",
+      "title": "normalisation invoice-08.xml",
+      "passed": true
+    },
+    {
+      "id": "T09",
+      "title": "normalisation invoice-09.xml",
+      "passed": true
+    },
+    {
+      "id": "T10",
+      "title": "normalisation invoice-10.xml",
+      "passed": true
+    },
+    {
+      "id": "T11",
+      "title": "normalisation invoice-11.xml",
+      "passed": true
+    },
+    {
+      "id": "T12",
+      "title": "normalisation invoice-12.xml",
+      "passed": true
+    },
+    {
+      "id": "T13",
+      "title": "normalisation invoice-13.xml",
+      "passed": true
+    },
+    {
+      "id": "T14",
+      "title": "normalisation invoice-14.xml",
+      "passed": true
+    },
+    {
+      "id": "T15",
+      "title": "normalisation invoice-15.xml",
+      "passed": true
+    },
+    {
+      "id": "T16",
+      "title": "normalisation invoice-16.xml",
+      "passed": true
+    },
+    {
+      "id": "T17",
+      "title": "normalisation invoice-17.xml",
+      "passed": true
+    },
+    {
+      "id": "T18",
+      "title": "normalisation invoice-18.xml",
+      "passed": true
+    },
+    {
+      "id": "T19",
+      "title": "normalisation invoice-19.xml",
+      "passed": true
+    },
+    {
+      "id": "T20",
+      "title": "normalisation invoice-20.xml",
+      "passed": true
+    },
+    {
+      "id": "T21",
+      "title": "rejet métier distinct du rejet HTTP",
+      "passed": true
+    },
+    {
+      "id": "T22",
+      "title": "rediffusion du même identifiant PA",
+      "passed": true
+    },
+    {
+      "id": "T23",
+      "title": "doublon métier sous un nouvel identifiant PA",
+      "passed": true
+    },
+    {
+      "id": "T24",
+      "title": "délai dépassé et reprise possible",
+      "passed": true
+    },
+    {
+      "id": "T25",
+      "title": "HTTP 401 sans boucle automatique",
+      "passed": true
+    },
+    {
+      "id": "T26",
+      "title": "HTTP 429 et Retry-After",
+      "passed": true
+    },
+    {
+      "id": "T27",
+      "title": "champ ID manquant et correction sans empoisonner le registre",
+      "passed": true
+    },
+    {
+      "id": "T28",
+      "title": "devise discordante",
+      "passed": true
+    },
+    {
+      "id": "T29",
+      "title": "total payable incohérent",
+      "passed": true
+    },
+    {
+      "id": "T30",
+      "title": "XML tronqué, doublon de champ et limites",
+      "passed": true
+    },
+    {
+      "id": "T31",
+      "title": "DTD et entité externe bloquées",
+      "passed": true
+    },
+    {
+      "id": "T32",
+      "title": "HTTP 403",
+      "passed": true
+    },
+    {
+      "id": "T33",
+      "title": "HTTP 404",
+      "passed": true
+    },
+    {
+      "id": "T34",
+      "title": "HTTP 503 transitoire",
+      "passed": true
+    },
+    {
+      "id": "T35",
+      "title": "erreur réseau simulée",
+      "passed": true
+    },
+    {
+      "id": "T36",
+      "title": "formats CII et Factur-X hors périmètre",
+      "passed": true
+    },
+    {
+      "id": "T37",
+      "title": "URI de namespace usurpée",
+      "passed": true
+    },
+    {
+      "id": "T38",
+      "title": "HTTP 400 et 409",
+      "passed": true
+    },
+    {
+      "id": "T39",
+      "title": "date, précision et identité de routage invalides",
+      "passed": true
+    },
+    {
+      "id": "T40",
+      "title": "champs non mappés bloqués et lignes incohérentes",
+      "passed": true
+    }
+  ]
+}
