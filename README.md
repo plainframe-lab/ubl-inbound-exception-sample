@@ -42,10 +42,10 @@ Exécuter ce code dans un fichier `.mjs` avec le même indicateur Node. `Deliver
 - `fixtures/` : vingt fichiers XML, attentes JSON indépendantes et générateur.
 - `test/` et `results/` : essais et résultats locaux.
 - [Contrat technique](docs/technical-scope.md) et [exceptions](docs/exceptions.md).
-- [Examen des droits](docs/rights-review.md) et [proposition MIT](LICENSE.proposed.txt).
+- [Examen des droits](docs/rights-review.md) et [licence MIT](LICENSE).
 
 Profil limité : Invoice 380, EUR, C62, 1–100 lignes et totaux simples. Les champs hors mapping sont rejetés. Aucun validateur XSD/Schematron ni certification EN16931, CII ou Factur-X. Le lecteur XML n’est pas général. Le registre disparaît au redémarrage ; une conversion réussie ne confirme aucun import ERP. Aucun mécanisme de reprise automatique n’est implémenté.
 
 ## Statut des droits
 
-Préparation locale. La proposition MIT attend la confirmation du titulaire `{事業者名}` et l’autorisation de diffusion. `private: true` et `UNLICENSED` conservent ce statut dans les métadonnées ; la proposition ne constitue pas une autorisation déjà acquise. Voir les points non confirmés dans l’examen des droits.
+Publié sous licence MIT (titulaire : plainframe-lab). Le titulaire a confirmé, le 2026-10-16, la paternité, l'absence de restriction liée à un emploi et l'autorisation de diffusion. `private: true` empêche uniquement une publication accidentelle sur npm.

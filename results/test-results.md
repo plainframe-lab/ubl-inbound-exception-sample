@@ -1,6 +1,6 @@
 # Résultats des essais locaux
 
-Exécution : 2026-10-12T14:23:24.425Z; Node v22.17.1.
+Exécution : 2026-10-15T17:30:49.083Z; Node v22.17.1.
 20 factures fictives, 40 cas, 40 réussis, 0 échoués. Aucun appel API.
 
 | Cas | Description | Résultat |

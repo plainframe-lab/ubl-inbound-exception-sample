@@ -42,10 +42,10 @@ Save this as an `.mjs` file and run with the same Node flag. `Delivery` is a loc
 - `fixtures/`: twenty XML files, independently generated expected JSON, generator.
 - `test/` and `results/`: local tests and their results.
 - [Technical scope in French](docs/technical-scope.md) and [exception taxonomy](docs/exceptions.md).
-- [Rights review](docs/rights-review.md) and [MIT proposal](LICENSE.proposed.txt).
+- [Rights review](docs/rights-review.md) and [MIT license](LICENSE).
 
 Restricted profile: Invoice 380, EUR, C62, 1–100 lines, simple totals. Unmapped fields are rejected. No XSD/Schematron validation or EN16931 certification, CII or Factur-X support. The XML reader is deliberately incomplete. The ledger is lost on restart; successful conversion does not establish an ERP import. No automatic retries are implemented.
 
 ## Rights status
 
-Local preparation. The MIT proposal awaits confirmation of the rights holder `{事業者名}` and permission to distribute. Package metadata retains `private: true` and `UNLICENSED`; the proposal is not an established grant. See unresolved items in the rights review.
+Released under the MIT License (holder: plainframe-lab). On 2026-10-16 the holder confirmed authorship, no employment-related restriction, and permission to distribute. `private: true` only prevents accidental publication to npm.

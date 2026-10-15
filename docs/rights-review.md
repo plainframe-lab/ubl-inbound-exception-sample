@@ -9,9 +9,13 @@ Reviewed 2026-10-05. This is an inventory and limited local review, not a comple
 | Fixtures and expected JSON | Local Python generator, XML and manifest reviewed | Generated fictional names and SYNTH identifiers; no downloaded invoices, real tax identifiers, contact details or service samples included. |
 | Dependencies | package.json and imports | No runtime or development package dependencies; Node built-ins and Python standard library only. Runtime distributions are not bundled. |
 | Documentation | Local scope document and newly written bilingual notes | No provider documentation, schema archive, logo, screenshot or API contract reproduced. Standard namespace identifiers are retained for parsing. |
-| MIT proposal | [Official license text](https://opensource.org/license/mit), accessed 2026-10-05 | MIT proposal supplied separately; its notice and warranty clauses are retained. Holder placeholder awaits approval. |
+| MIT proposal | [Official license text](https://opensource.org/license/mit), accessed 2026-10-05 | MIT proposal supplied separately; its notice and warranty clauses are retained. Holder: plainframe-lab (confirmed 2026-10-16). |
 | UBL reference | [Official UBL 2.1 specification](https://docs.oasis-open.org/ubl/os-UBL-2.1/UBL-2.1.html), accessed 2026-10-05 | Reference link and namespace identifiers only; specification, XSD and sample documents are not redistributed. No certification or endorsement is claimed. |
 
 Before release, the owner must confirm authorship, any employment or commissioned-work restrictions, rights to all adapted files and authority to grant MIT. Any external material discovered later requires its own terms review. The local inspection cannot establish that no earlier unrecorded copying occurred. No blanket third-party clearance is asserted.
 
 Avant diffusion, confirmer le titulaire, la provenance des fichiers et l’autorité d’accorder MIT. Le fichier proposé reste un projet ; il ne prouve pas la titularité des droits.
+
+## Owner confirmation / Confirmation du titulaire (2026-10-16)
+
+The rights holder (plainframe-lab) confirmed authorship, no employment or commissioned-work restriction, and authority to grant MIT. The code was written for the holder with AI assistance; no third-party code is included (see table above).

@@ -9,5 +9,5 @@
   "scripts": {
     "test": "node --experimental-strip-types --test --test-concurrency=1 test/cases.test.mjs"
   },
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
